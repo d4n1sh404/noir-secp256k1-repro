@@ -60,4 +60,13 @@ node
 node index.js
 ```
 
-This command executes the predefined start script prints the current test values to the terminal, and generates the Prover.toml file, which can be directly checked.
+This command executes the predefined start script prints the current test values to the terminal, and generates the Prover.toml file in secp_verify folder, which can be directly checked.
+
+## Check the prover
+
+```bash
+cd secp_verify
+nargo prove
+```
+
+
