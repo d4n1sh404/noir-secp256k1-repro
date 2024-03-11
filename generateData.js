@@ -24,7 +24,7 @@ export const generateTestData = () => {
   const privateKey = ecCurve.keyFromPrivate(privateKeyHex, "hex");
   const publicKey = ecCurve.keyFromPrivate(publicKeyHex, "hex");
 
-  const signedCommitment = privateKey.sign(testHash);
+  const signedCommitment = privateKey.sign(testHash, { canonical: true });
   const signedCommitmentHex = joinAndPadSignature(
     signedCommitment.r,
     signedCommitment.s
