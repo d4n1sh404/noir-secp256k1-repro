@@ -1,13 +1,15 @@
 import {generateTestData} from './generateData.js';
 import {formatProver, formatTest} from './format.js';
 import {verifyData} from './verify.js';
-import {createProverOutput, createTestOutput} from './outputHandlers.js';
+import {createJsonOutput,createProverOutput, createTestOutput} from './outputHandlers.js';
 
 const init = () => {
 
 let data = generateTestData();
+
 let isVerified = verifyData(data);
 
+createJsonOutput(data);
 
 if(!isVerified){
 console.log(`Data verify after stringify failed!!`)

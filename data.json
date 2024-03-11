@@ -1,0 +1,26 @@
+{
+    "hashes": {
+        "testHash": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08"
+    },
+    "keys": {
+        "publicKey": {
+            "key": [
+                "13190011728d1f55a593705c347979a4ade211b408ff05b61f0cebe78e579dcb",
+                "a2067bc7dd5b34c539962c048f450a147bc9a6daf5a70f61923e1820e286979c"
+            ],
+            "hex": "0413190011728d1f55a593705c347979a4ade211b408ff05b61f0cebe78e579dcba2067bc7dd5b34c539962c048f450a147bc9a6daf5a70f61923e1820e286979c"
+        },
+        "privateKey": {
+            "key": "8512e7c71b82ee3050296e7968d324d818599a2a3fa3c810ef5089b1b8ab8d4a",
+            "hex": "8512e7c71b82ee3050296e7968d324d818599a2a3fa3c810ef5089b1b8ab8d4a"
+        }
+    },
+    "commitment": {
+        "signedCommitment": {
+            "r": "760d74dcac28d46fede461b19c6425fec5f7b921142c641c80a5d038566d35e5",
+            "s": "3fa24b3bc03bfde4c6e59e71fc5e9a6db074d7dd38f63361eb9d3b838e2266df",
+            "recoveryParam": 1
+        },
+        "signedCommitmentHex": "760d74dcac28d46fede461b19c6425fec5f7b921142c641c80a5d038566d35e53fa24b3bc03bfde4c6e59e71fc5e9a6db074d7dd38f63361eb9d3b838e2266df"
+    }
+}
