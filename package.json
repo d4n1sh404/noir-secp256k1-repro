@@ -1,0 +1,13 @@
+{
+  "name": "et",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "elliptic": "^6.5.5"
+  },
+  "scripts":{
+  "start": "node index.js" 
+  }
+}
